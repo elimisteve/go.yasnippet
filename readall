@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : body, err := ioutil.ReadAll(req.Body)
+# contributor : elimisteve
+# --
+body, err := ioutil.ReadAll(req.Body)

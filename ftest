@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name : func TestXxx(t *testing.T) { ... }
+# contributor : elimisteve
+# --
+func Test$1(t *testing.T) {
+	$0
+	if got := $1($2); got != wanted {
+		t.Errorf("Got %v, wanted %v", got, wanted)
+    }
+}

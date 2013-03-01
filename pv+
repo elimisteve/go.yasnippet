@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : fmt.Printf("$1 == %+v\n", $1)$0
+# contributor : elimisteve
+# --
+fmt.Printf("$1 == %+v\n", $1)$0

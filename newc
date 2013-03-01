@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : c := appengine.NewContext(r)
+# contributor : elimisteve
+# --
+c := appengine.NewContext(r)

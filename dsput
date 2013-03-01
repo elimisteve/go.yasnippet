@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : _, err := datastore.Put(...)
+# contributor : elimisteve
+# --
+_, err := datastore.Put(c, datastore.NewIncompleteKey(c, "Greeting", nil), &g)

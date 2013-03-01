@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : fmt.Fprintf(...)
+# contributor : elimisteve
+# --
+fmt.Fprintf(w, $1)$0

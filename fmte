@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : fmt.Errorf(...)
+# contributor : elimisteve
+# --
+fmt.Errorf("Error $0: %v", err)

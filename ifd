@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : if DEBUG { fmt.Printf("\n") }
+# contributor : elimisteve
+# --
+if DEBUG { log.Printf("$0\n") }

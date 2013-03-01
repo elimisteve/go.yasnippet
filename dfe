@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name : defer func() { \n...\n }()
+# contributor : elimisteve
+# --
+defer func() {
+	$0
+}()

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : q := datastore.NewQuery(...)
+# contributor : elimisteve
+# --
+q := datastore.NewQuery("Greeting").Order("-Date").Limit(10)

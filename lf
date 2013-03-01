@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : log.Fatalf("%v\n", err)
+# contributor : elimisteve
+# --
+log.Fatalf("$1: %v\n", ${2:err})

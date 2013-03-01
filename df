@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : defer func() { ... }()
+# contributor : elimisteve
+# --
+defer func() { $0 }()

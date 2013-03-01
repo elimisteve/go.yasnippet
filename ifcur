@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name : if u := user.Current(c); u != nil { ... }
+# contributor : elimisteve
+# --
+if u := user.Current(c); u != nil {
+	$0
+}

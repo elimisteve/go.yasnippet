@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : http.Error(...)
+# contributor : elimisteve
+# --
+http.Error(w, err.Error(), http.StatusInternalServerError)

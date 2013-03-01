@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : fmt.Printf("%T\n", $1)
+# contributor : elimisteve
+# --
+fmt.Printf("type($1) == %T\n", $1)

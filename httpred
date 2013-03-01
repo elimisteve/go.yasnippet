@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : http.Redirect(...)
+# contributor : elimisteve
+# --
+http.Redirect(w, r, "/", http.StatusFound)

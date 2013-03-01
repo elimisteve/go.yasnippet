@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : if DEBUG { fmt.Printf("$1 == %${0:v}\n", $1) }
+# contributor : elimisteve
+# --
+if DEBUG { fmt.Printf("$1 == %${2:v}\n", $1) }$0

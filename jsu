@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : json.Unmarshal
+# contributor : elimisteve
+# --
+err := json.Unmarshal(body, &${1:struct})$0

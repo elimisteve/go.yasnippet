@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name : if _, err := q.GetAll(c, &${1:myStruct}); ...
+# contributor : elimisteve
+# --
+if _, err := q.GetAll(c, &${1:myStruct}); err != nil {
+	http.Error(w, err.Error(), http.StatusInternalServerError)
+	return
+}
+$0

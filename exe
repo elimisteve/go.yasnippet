@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name : templateName.Execute(...)
+# contributor : elimisteve
+# --
+if err := ${1:templateName}.Execute(w, ${2:myData}); err != nil {
+	http.Error(w, err.Error(), http.StatusInternalServerError)
+}
+$0

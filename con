@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : strings.Contains(str, chars)
+# contributor : elimisteve
+# --
+strings.Contains(${1:str}, ${2:chars})

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name : func
+# contributor : elimisteve
+# --
+func ${1:name}(${2:input}) ${3:output }{
+    $0
+}

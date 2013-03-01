@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name : var (  )
+# contributor : elimisteve
+# --
+var (
+	$0
+)

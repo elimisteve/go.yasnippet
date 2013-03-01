@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name : func init() { $0 }
+# contributor : elimisteve
+# --
+func init() {
+	$0
+}

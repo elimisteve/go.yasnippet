@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : runtime.GOMAXPROCS(runtime.NumCPU())
+# contributor : elimisteve
+# --
+runtime.GOMAXPROCS(runtime.NumCPU())$0

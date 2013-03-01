@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name : const (  )
+# contributor : elimisteve
+# --
+const (
+	$0
+)

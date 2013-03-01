@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name : go func() { \n...\n }()
+# contributor : elimisteve
+# --
+go func() {
+	$0
+}()
